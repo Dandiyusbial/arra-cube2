@@ -598,7 +598,7 @@ footer .credit a {
   .hero .content {
     padding: 1.4rem 0 0 35%;
     max-width: 58rem;
-  
+
   }
 
   .about .row {
@@ -644,7 +644,7 @@ footer .credit a {
     padding: 0 0 2rem 0;
   }
 
-  .contact .row2 form .input-group2  {
+  .contact .row2 form .input-group2 {
     /* display: flex; */
     margin-top: 2rem;
     padding: 0 2rem;
@@ -671,17 +671,17 @@ footer .credit a {
     /* Margin untuk jarak antar item */
   }
 
-.modal-container {
-  position: relative;
-  background-color: #fefefe;
-  color: var(--bg);
-  margin: 40% auto;
-  padding: 1.2rem;
-  border: 1px solid #666;
-  width: 70%;
-  height: 70%;
-  animation: animateModal 0.5s;
-}
+  .modal-container {
+    position: relative;
+    background-color: #fefefe;
+    color: var(--bg);
+    margin: 40% auto;
+    padding: 1.2rem;
+    border: 1px solid #666;
+    width: 72%;
+    height: 58%;
+    animation: animateModal 0.5s;
+  }
 
 
 
@@ -695,4 +695,16 @@ footer .credit a {
   html {
     font-size: 55%;
   }
+  .modal-container {
+    position: relative;
+    background-color: #fefefe;
+    color: var(--bg);
+    margin: 40% auto;
+    padding: 1.2rem;
+    border: 1px solid #666;
+    width: 72%;
+    height: 40%;
+    animation: animateModal 0.5s;
+  }
+
 }
