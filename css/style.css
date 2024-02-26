@@ -549,6 +549,28 @@ footer .credit a {
     font-size: 75%;
   }
 }
+/* notebook */
+@media (max-width: 1218px) {
+  html {
+    font-size: 75%;
+  }
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-image: url('../img2/BG\ web\ arra3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+  }
+
+
+}
+
 
 /* Tablet */
 @media (max-width: 768px) {
@@ -610,8 +632,9 @@ footer .credit a {
   }
 
   .hero .content {
-    padding: 1.4rem 0 0 35%;
+    padding: 1.4rem 0 0 15%;
     max-width: 58rem;
+    align-items: left;
 
   }
 
