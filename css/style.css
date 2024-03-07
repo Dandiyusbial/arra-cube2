@@ -292,6 +292,11 @@ body {
   text-align: center;
   border: 1px solid var(--primary2);
   padding: 2rem;
+ 
+}
+.produk .produk-card .produk-img img{
+width: 80%;
+height: 80%;
 }
 
 .produk .produk-icon {
@@ -311,7 +316,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.produk .produk
 
 .produk .produk-icon a:hover {
   background-color: var(--primary2);
